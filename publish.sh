@@ -1,9 +1,9 @@
 #!/bin/bash
 # Публикация Obsidian-заметок на GitHub Pages.
-# Источник: Хранилище/Публичное → content → сборка → push.
+# Источник: Хранилище/Публичный блокнот → content → сборка → push.
 set -euo pipefail
 
-VAULT="/Users/evgenijdavydov/SecondBrain/Хранилище/Публичное"
+VAULT="/Users/evgenijdavydov/SecondBrain/Хранилище/Публичный блокнот"
 GARDEN="/Users/evgenijdavydov/digital-garden"
 export PATH="$HOME/homebrew/bin:$PATH"
 
